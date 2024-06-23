@@ -1,0 +1,11 @@
+.correcto {
+    color: rgb(0, 255, 0);
+    -webkit-text-stroke: 0.1px white;
+    weight: 20px;
+}
+
+.mal {
+    color: red;
+    -webkit-text-stroke: 0.1px white;
+    weight: 20px;
+}

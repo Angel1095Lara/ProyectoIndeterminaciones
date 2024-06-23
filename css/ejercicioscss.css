@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    color: white;
+}
+.Ejercicios{
+    font-size: 30px;
+}
+
+.Respuesta{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+#Res1,#Res2,#Res3,#Res4,#Res5,#Res6,#Res7{
+    display: none;
+}
+:root{
+    --bg-color: linear-gradient(
+        to right,
+        rgb(0, 255, 213) 0%,
+        rgb(212, 0, 255) 100%
+    ); 
+    --bg-color2: linear-gradient(
+        to right,
+        rgb(87, 87, 87) 0%,
+        rgb(0, 0, 0) 100%
+    ); 
+    --bg-color3: linear-gradient(
+        to bottom,
+        rgb(54, 54, 54) 0%,
+        rgb(0, 0, 0) 100%
+    ); 
+}
+
+
+#Resultado:hover{
+    background: var(--bg-color);   
+    color: rgb(0, 0, 0);
+    scale: 1.2;
+    border-radius: 20px;
+}
+#Resultado{
+    color: white;
+    background: var(--bg-color2);
+    width: 200px;
+    transition-duration: 500ms;
+}
+.contenedor{
+    border: 1px solid black;
+    width: 755px;
+    
+    background: var(--bg-color);
+    display: grid;
+    place-content: center;
+    border-radius: 20px;
+}
+.fondoN{
+    background: var(--bg-color2);
+    width: 720px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.section{
+    background: var(--bg-color);
+}
+.ax2bxc{
+    background: var(--bg-color3);
+    padding: 10px;
+    margin-top: -5px;
+    margin-bottom: -25px;
+    margin-left: -180px;
+    margin-right: -180px;
+}
+.Raiz_Cuadrada{
+    background: var(--bg-color3);
+    padding: 10px;
+    margin-top: -5px;
+    margin-bottom: -25px;
+    margin-left: -180px;
+    margin-right: -180px;
+}
+.Binomio_Cubo{
+    background: var(--bg-color3);
+    padding: 10px;
+    margin-top: -5px;
+    margin-bottom: -25px;
+    margin-left: -180px;
+    margin-right: -180px;
+}
+.borde{
+    background: var(--bg-color3);
+    padding: 10px;
+    margin-top: -5px;
+    margin-bottom: -25px;
+    margin-left: -180px;
+    margin-right: -180px;
+}
+.cont{
+    width: auto;
+    display: grid;
+    place-content: center;
+    grid-template-columns:300px 300px 300px ;
+    grid-template-rows: auto auto 20px auto;
+    gap: 20px;
+    
+}
+.boxEl{
+    width: auto;
+    height: auto;
+}
+
+#intro{
+    font-size: 50px;
+}
+
+
+#introduc{
+    font-size: 30px;
+}
+
+
+header{
+    background-color:  rgb(54, 54, 54);
+}
+
+section{
+    border: 1px solid white;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: var(--bg-color); 
+}
+.titulo{
+    margin-bottom: 20px;
+}
+.bg{
+    background-color: black;
+    padding: 10px;
+    height: 320px;
+    background: var(--bg-color3);
+}
+.bGroup{
+   display: grid;
+   place-content: center;
+   grid-template-columns: 1fr 1fr;
+}
+.b{
+    margin-top: 17px;
+    height: 100px;
+    padding: 10px;
+    background: var(--bg-color3);
+    transition-duration: 500ms;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 3px;
+    font-size: larger;
+
+    text-decoration: none;
+}
+.b:hover{
+    background: var(--bg-color);   
+    color: #ffffff;
+    border-radius: 20px;
+}
+body{
+    width: 99%;
+    height: auto;
+    display: grid;
+    place-content: center;
+    background: var(--bg-color3);
+}
+.tituloP{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 3px;
+    font-size: xx-large;
+}
+a{
+    text-align: center;
+    font-size: x-large;
+}
+footer{
+    text-align: center;
+}
+button{
+    display: grid;
+   place-content: center;
+   grid-template-columns: 1fr 1fr;
+}
+input{
+    color: black;
+}
+.bIni{
+    color: #ffffff;
+    height: 85px;
+    padding: 10px;
+    background: var(--bg-color3);
+    transition-duration: 500ms;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 3px;
+    font-size: larger;
+
+    text-decoration: none;
+}
+.bIni:hover{
+    background: var(--bg-color);   
+    color: #ffffff;
+    border-radius: 20px;
+}
+.bGroup2 {
+    display: grid;
+    place-content: center;
+}
+.bGroup2 a:nth-child(2) {
+    display: grid;
+    place-content: center;
+}
+
+footer {
+    width: 100%;
+}

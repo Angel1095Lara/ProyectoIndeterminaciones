@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio Sesion</title>
+    <link rel = "stylesheet" href = "css/ejercicioscss.css">
+</head>
+<body>
+    <center>
+    <h2>Ingrese sus datos personales</h2>
+    <section>
+    <div class="bg">
+        <div class="form-content">
+            <form action="introduccion.php" method="POST">
+                
+                <label for="nombre">Ingrese su nombre</label> <br>
+                <input type="text" name="nombre" id="nombre" required><br>
+                <br>
+                <label for="ApeP">Ingrese su Apellido Paterno</label><br>
+                <input type="text" name="ApeP" id="ApeP" required><br>
+                <br>
+                <label for="ApeM">Ingrese su Apellido Materno</label><br>
+                <input type="text" name="ApeM" id="ApeM" required><br>
+                <br>
+                <label for="CorEl">Ingrese su Correo Electronico</label><br>
+                <input type="email" name="CorEl" id="CorEl" required><br>
+                <br>
+                <label for="Cont">Ingrese su Contraseña</label><br>
+                <input type="password" name="Cont" id="Cont" required><br>
+                <br>
+                <div class="bGroup2">
+                    <input type="submit" value="Ingresar" class="bIni">
+                <div>
+                    
+            </form>
+        </div>
+    </div>
+    </section>
+    <br><br><br>
+    </center>
+</body>
+</html>
